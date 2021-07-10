@@ -5,7 +5,7 @@ export function fetchEmployees(){
     fetch('http://dummy.restapiexample.com/api/v1/employees')
     .then(response => response.json())
     .then(employees => {
-      console.log(employees, 'action');
+      
       dispatch({
         type: SET_EMPLOYEES,
         payload: employees.data
