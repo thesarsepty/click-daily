@@ -1,0 +1,2 @@
+export const SET_EMPLOYEES = 'SET_EMPLOYEES'
+export const SET_DETAILS_FORM = 'SET_DETAILS_FORM'
